@@ -4,18 +4,18 @@ An opinionated library to help you build compilers.
 
 # Features
 
-- [ ] Ast Creation Tools
-- [ ] Ast Walk functionality built in
-- [ ] Ast node typing garauntees (ensure that all nodes are well defined)
-- [ ] Ast nodes having configurable parser patterns
-- [ ] Utility decorators for annotation of individual parts of the compilers
-- [ ] Parser pattern builder
-- [ ] Parser builder
+- [x] Ast Creation Tools
+- [x] Ast Walk functionality built in
+- [x] Ast node typing garauntees (ensure that all nodes are well defined)
+- [x] Ast nodes having configurable parser patterns (WIP, needs to be more ergonomic)
+- [x] Utility decorators for annotation of individual parts of the compilers
+- [x] Parser pattern builder
+- [x] Parser builder (WIP, needs to be more ergonomic)
 - [ ] Parser check functions built into patterns to allow automatic syntax error parsing.
 - [ ] Source error highlighting (fine grained highlights)
 - [ ] Package and module tree utilities
-- [ ] Lexing via rply library (and utilities)
-- [ ] Parser token class builtin
+- [x] Lexing via rply library (and utilities)
+- [x] Parser token class builtin
 
 # What this does not provide
 

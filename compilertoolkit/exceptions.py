@@ -1,5 +1,5 @@
-'''Compilation Exceptions.
-You pass a source position to these kind of exceptions'''
+"""Compilation Exceptions.
+You pass a source position to these kind of exceptions"""
 
 from .tokens import SourcePosition
 
@@ -10,4 +10,4 @@ class CompilerError(Exception):
         super().__init__(msg)
 
 
-__all__ = []
+__all__ = ["CompilerError"]
