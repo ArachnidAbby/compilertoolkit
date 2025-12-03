@@ -10,6 +10,8 @@ An opinionated library to help you build compilers.
 - [x] Ast nodes having configurable parser patterns (WIP, needs to be more ergonomic)
 - [x] Utility decorators for annotation of individual parts of the compilers
 - [x] Parser pattern builder
+  - [ ] unions on patterns (`or` clause)
+  - [ ] `and` clause on patterns
 - [x] Parser builder (WIP, needs to be more ergonomic)
 - [ ] Parser check functions built into patterns to allow automatic syntax error parsing.
 - [ ] Source error highlighting (fine grained highlights)
